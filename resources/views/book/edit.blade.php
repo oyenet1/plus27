@@ -60,7 +60,7 @@
                                     </span>
                                 </div>
                                 <input type="text" class="form-control" placeholder="Author" name="author"
-                                    value="{{ old('author') ?? $book->price }}">
+                                    value="{{ old('author') ?? $book->author }}">
                                 @error('author')
                                     <small class="text-danger w-100 small"> {{ $message }} </small>
                                 @enderror
